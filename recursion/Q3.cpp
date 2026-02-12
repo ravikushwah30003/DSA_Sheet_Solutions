@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace  std;
+
+void print(int i,int n){
+    //base case:
+    if(i<1)return;
+
+    cout<<(i)<<endl;
+    print(i-1,n);
+}
+
+int main(){
+    int n = 10;
+
+    //function call
+    print(n,n);
+}
